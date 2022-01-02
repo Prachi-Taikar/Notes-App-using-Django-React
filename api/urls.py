@@ -15,3 +15,5 @@ urlpatterns=[
     path('notes/<str:pk>/', views.getNote, name="note"),
     
 ] 
+
+    
